@@ -1,0 +1,16 @@
+/* 1. Display child element in the center of the parent */
+/* 2. Display two children elements on different sides in the parent */
+/* 3. Display two children elements vertically in reverse order */
+
+.parent {
+  height: 800px;
+  border: 2px solid #faf;
+}
+.child1,
+.child2 {
+  height: 400px;
+  width: 400px;
+  border: 2px solid chartreuse;
+  font-size: 18px;
+  display: inline-block;
+}
